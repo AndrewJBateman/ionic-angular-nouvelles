@@ -1,0 +1,54 @@
+{
+	"$schema": "./node_modules/@angular/service-worker/config/schema.json",
+	"index": "/index.html",
+	"dataGroups": [
+		{
+			"name": "joke",
+			"version": 1,
+			"urls": ["https://api.chucknorris.io/**"],
+			"cacheConfig": {
+				"strategy": "freshness",
+				"maxSize": 5,
+				"maxAge": "5h",
+				"timeout": "3s"
+			}
+		},
+		{
+			"name": "randomuser-api",
+			"version": 1,
+			"urls": ["https://randomuser.me/api/?results=5"],
+			"cacheConfig": {
+				"strategy": "performance",
+				"maxSize": 10,
+				"maxAge": "10s",
+				"timeout": "3s"
+			}
+		}
+	],
+	"assetGroups": [
+		{
+			"name": "app",
+			"installMode": "prefetch",
+			"resources": {
+				"files": [
+					"/favicon.ico",
+					"/index.html",
+					"/manifest.webmanifest",
+					"/*.css",
+					"/*.js"
+				]
+			}
+		},
+		{
+			"name": "assets",
+			"installMode": "lazy",
+			"updateMode": "prefetch",
+			"resources": {
+				"files": [
+					"/assets/**",
+					"/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+				]
+			}
+		}
+	]
+}
