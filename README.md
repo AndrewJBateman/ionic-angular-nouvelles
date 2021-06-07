@@ -1,12 +1,12 @@
 # :zap: Ionic Angular Nouvelles
 
-Ionic app that displays API data.
+* Ionic app that displays API data.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-angular-world-data?style=plastic)
-![GitHub issues](https://img.shields.io/github/issues/AndrewJBateman/ionic-angular-world-data?style=plastic)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/ionic-angular-world-data?style=plastic)
-![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/ionic-angular-world-data?style=plastic)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/AndrewJBateman/ionic-angular-world-data?style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-angular-nouvelles?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/ionic-angular-nouvelles?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/ionic-angular-nouvelles?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/ionic-angular-nouvelles?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -21,7 +21,7 @@ Ionic app that displays API data.
 
 ## :books: General info
 
-* tba
+* API used to be confirmed
 * Built using the [Ionic 5 framework](https://ionicframework.com/docs)
 
 ## :camera: Screenshots
