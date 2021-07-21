@@ -52,15 +52,12 @@ tba
 
 ## :cool: Features
 
-* **Typescript interface** used to define the expected structures of the json objects returned from the API.
-* **Separate services** page with API http fetch functions.
-* **RxJS Observables** used to extract data asynchronously.
-* **Dark mode** switch on menu.
+* tba
 
 ## :clipboard: Status & To-do list
 
 * Status: Working PWA, passes linting.
-* To-do:
+* To-do: Add ionic-native statusbar & splashscreen etc. Reploy. Add French news API data or websockets etc.
 
 ## :clap: Inspiration
 
