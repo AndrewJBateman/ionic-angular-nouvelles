@@ -1,0 +1,33 @@
+<ion-content>
+  <ion-button expand="block" (click)="getData()">Get Data</ion-button>
+  <ion-button expand="block" (click)="getOnlineData()"
+    >Get Online Data</ion-button
+  >
+
+  <ion-card *ngIf="joke">
+    <ion-card-content>
+      {{ joke.value }}
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list>
+    <ion-item *ngFor="let user of users">
+      <ion-avatar slot="start">
+        <img [src]="user.picture.thumbnail">
+      </ion-avatar>
+      <ion-label>
+        <h2 class="ion-text-capitalize">{{ user.name.first }} {{ user.name.last }}</h2>
+        <p>{{ user.email }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="primary" *ngIf="appIsOnline">
+    <ion-title>You are online :)</ion-title>
+  </ion-toolbar>
+  <ion-toolbar color="danger" *ngIf="!appIsOnline">
+    <ion-title>You are offline :(</ion-title>
+  </ion-toolbar>
+</ion-footer>
