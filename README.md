@@ -25,8 +25,8 @@
 
 ## :books: General info
 
-* API used to be confirmed
-* Built using the [Ionic 5 framework](https://ionicframework.com/docs)
+* API used are for development. Plan is to replace APIs with a French news API
+* Built using the [Ionic framework](https://ionicframework.com/docs)
 
 ## :camera: Screenshots
 
@@ -34,16 +34,16 @@ tba
 
 ## :signal_strength: Technologies
 
-* [Ionic v5](https://ionicframework.com/)
-* [Angular v12](https://angular.io/)
-* [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
+* [Ionic v6](https://ionicframework.com/)
+* [Angular v13](https://angular.io/)
+* [Ionic/angular v6](https://www.npmjs.com/package/@ionic/angular)
 * [Ionic 5 open source Ionicons](https://ionicons.com/)
 
 ## :floppy_disk: Setup
 
 * Run `npm i` to install dependencies
-* Get yourself an API key for xxx API and add to `xxx` file
-* To start the server on _localhost://8100_ type: 'ionic serve'
+* Note: there are no API keys required
+* `ionic serve` to start the server on _localhost://8100_
 * To run linter: `npm run lint`
 
 ## :computer: Code Examples
