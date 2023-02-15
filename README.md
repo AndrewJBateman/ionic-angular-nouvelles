@@ -35,9 +35,9 @@ tba
 ## :signal_strength: Technologies
 
 * [Ionic v6](https://ionicframework.com/)
-* [Angular v13](https://angular.io/)
+* [Angular v15](https://angular.io/)
 * [Ionic/angular v6](https://www.npmjs.com/package/@ionic/angular)
-* [Ionic 5 open source Ionicons](https://ionicons.com/)
+* [Ionic v6 open source Ionicons](https://ionicons.com/)
 
 ## :floppy_disk: Setup
 
@@ -48,10 +48,18 @@ tba
 
 ## :computer: Code Examples
 
-* tba.
+* `explorer-container.container.ts` async function to get Boolean connected status on initialization
 
 ```typescript
-tba
+  async ngOnInit() {
+    const status: ConnectionStatus = await Network.getStatus();
+    this.appIsOnline = status.connected;
+
+    Network.addListener('networkStatusChange', () => {
+      console.log('status: ', status);
+      this.appIsOnline = status.connected;
+    });
+  }
 ```
 
 ## :cool: Features
