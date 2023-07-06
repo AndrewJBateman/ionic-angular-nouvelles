@@ -13,10 +13,12 @@
   <ion-list>
     <ion-item *ngFor="let user of users">
       <ion-avatar slot="start">
-        <img [src]="user.picture.thumbnail">
+        <img [src]="user.picture.thumbnail" />
       </ion-avatar>
       <ion-label>
-        <h2 class="ion-text-capitalize">{{ user.name.first }} {{ user.name.last }}</h2>
+        <h2 class="ion-text-capitalize">
+          {{ user.name.first }} {{ user.name.last }}
+        </h2>
         <p>{{ user.email }}</p>
       </ion-label>
     </ion-item>

@@ -25,7 +25,7 @@
 
 ## :books: General info
 
-* API used are for development. Plan is to replace APIs with a French news API
+* APIs used do not require API keys
 * Built using the [Ionic framework](https://ionicframework.com/docs)
 
 ## :camera: Screenshots
@@ -34,10 +34,9 @@ tba
 
 ## :signal_strength: Technologies
 
-* [Ionic v6](https://ionicframework.com/)
-* [Angular v15](https://angular.io/)
-* [Ionic/angular v6](https://www.npmjs.com/package/@ionic/angular)
-* [Ionic v6 open source Ionicons](https://ionicons.com/)
+* [Angular v16](https://angular.io/)
+* [Ionic/angular v7](https://www.npmjs.com/package/@ionic/angular)
+* [Ionic v7 open source Ionicons](https://ionicons.com/)
 
 ## :floppy_disk: Setup
 
@@ -81,4 +80,4 @@ tba
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: `gomezbateman@yahoo.com`
